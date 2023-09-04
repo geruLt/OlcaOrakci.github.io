@@ -23,6 +23,15 @@
     box-shadow: 0px 0px 2px 8px #f7f7f7;
   }
 }
+/* Card sizing
+.demo-card:nth-child(odd) {
+  order: calc((-var(--n) * 2) + var(--card-count) * 2 + 1);
+}
+
+.demo-card:nth-child(even) {
+  order: calc((-var(--n) * 2) + var(--card-count) * 2);
+} */
+
 /* Card sizing */
 .demo-card:nth-child(odd) {
   order: calc((var(--n) * 2) - 1);
