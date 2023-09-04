@@ -256,3 +256,9 @@ body {
 #timeline .demo-card--step9 .head::after {
   border-color: #d7c5e6;
 }
+#timeline .demo-card--step10 {
+  background-color: #addb71;
+}
+#timeline .demo-card--step10 .head::after {
+  border-color: #addb71;
+}
